@@ -23,3 +23,8 @@ header {
 #header-img {
     width: 360px;
 }
+
+li
+{
+    float : right;
+}
