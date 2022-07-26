@@ -24,7 +24,19 @@ header {
     width: 360px;
 }
 
-li
-{
-    float : right;
+nav {
+    text-align: right;
+  }
+
+  nav ul {
+    width: 555px;
+    display: flex;
+    padding-left: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+    @media screen and (max-width: 600px){
+      flex-direction: column;
+      display: block;
+      overflow-x: auto; 
+    }
 }
