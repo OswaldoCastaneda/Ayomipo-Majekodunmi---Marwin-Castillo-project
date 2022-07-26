@@ -1,5 +1,25 @@
-#header-img
-{
-    width: 10px;
-    height:10px;
+body {
+    background-color: #EEEDEC;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13pt;
+}
+
+#page-container {
+    position: fixed;
+    top: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEEDEC;
+}
+
+#header-img {
+    width: 360px;
 }
