@@ -24,7 +24,105 @@ header {
     width: 360px;
 }
 
+nav
+{
+    text-align: right;
+}
+
+nav ul
+{
+    width: 555px;
+    display: flex;
+    padding-left: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+        @media screen and (max-width: 600px)
+        {
+            flex-direction: column;
+            display: block:
+            overflow-x: auto;
+        }
+}
+
 li
 {
-    float : right;
+    list-style: none;
 }
+
+a 
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: #FF8000;
+}
+
+form
+{
+    padding-top: 80px;
+    display: block;
+    text-align: center;
+}
+
+form h1
+{
+    font-size: 20pt;
+}
+
+#email 
+{
+    width: 220px;
+    height: 25px;
+    padding: 3px;
+}
+
+#submit
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30px;
+    width: 160px;
+    border: none;
+    background-color: #F0BE48;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12 pt;
+    cursor: pointer;
+}
+
+#submit :hover
+{
+    background-color: #FF8000;
+}
+
+#features .icon
+{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 7%;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+
+.desc
+{
+    width: 50%;
+    margin-top: -100px;
+    padding-left: 500px;
+}
+
+.desc h2
+{
+    font-size :24pt;
+}
+
+#features img
+{
+    width: 85%;
+}
+
